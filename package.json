@@ -1,18 +1,20 @@
 {
-  "name": "angular2-test",
+  "name": "tiny-angular2-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "tiny angular2-webpack-babeljs boilerplate",
   "main": "index.html",
   "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Art Deineka, @darkest_ruby",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "webpack": "^1.12.2",
     "angular2": "^2.0.0-alpha.45",
     "babel-core": "^6.0.16",
     "babel-loader": "^6.0.0",
-    "babel-preset-es2015": "^6.0.15"
+    "babel-preset-es2015": "^6.0.15",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
   }
 }
